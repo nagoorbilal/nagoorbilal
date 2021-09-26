@@ -1,0 +1,113 @@
+.OpenSlide{
+    cursor: pointer;    
+}
+.SlidecloseIcon{
+    color: #fff;
+}
+#DocSlide {
+    cursor: pointer;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 20; 
+    right: 10px;
+    background-color: transparent;
+    overflow-x: hidden;
+    transition: 0.2s;
+    top: 108px;    
+}
+#InsideSlide{
+    margin-left: 30px;
+}
+#DocClose{
+    background: #4992F9;
+    width: 50px; 
+    height: 42px;
+    position: absolute;
+    padding-top: 10px;
+    top: 70px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    padding-left: 8px;
+    box-shadow: inset -6px 0 8px -10px rgba(0,0,0,0.95);
+    cursor: pointer;
+}
+.DocSlideHead{
+    width: fit-content;
+    padding-bottom: 0px !important;
+}
+
+
+
+.OpenRevSlide{
+    cursor: pointer;
+}
+#DocRevSlide {
+    cursor: pointer;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 20; 
+    right: 10px;
+    background-color: transparent;
+    overflow-x: hidden;
+    transition: 0.2s;
+    top: 108px;    
+}
+#InsideRevSlide{
+    margin-left: 30px;
+}
+#DocRevClose{
+    background: #E13434;
+    width: 50px; 
+    height: 42px;
+    position: absolute;
+    padding-top: 10px;
+    top: 70px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    padding-left: 8px;
+    box-shadow: inset -6px 0 8px -10px rgba(0,0,0,0.95);
+    cursor: pointer;
+} 
+.DocRevSlideHead{
+    width: fit-content;
+    padding-bottom: 0px !important;
+}
+
+
+.OpenRevImgSlide{
+    cursor: pointer;
+}
+#DocRevImgSlide {
+    cursor: pointer;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 20; 
+    right: 10px;
+    background-color: transparent;
+    overflow-x: hidden;
+    transition: 0.2s;
+    top: 108px;    
+}
+#InsideRevImgSlide{
+    margin-left: 30px;
+}
+#DocRevImgClose{
+    background: #E13434;
+    width: 50px; 
+    height: 42px;
+    position: absolute;
+    padding-top: 10px;
+    top: 70px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    padding-left: 8px;
+    box-shadow: inset -6px 0 8px -10px rgba(0,0,0,0.95);
+    cursor: pointer;
+} 
+.DocRevImgSlideHead{
+    width: fit-content;
+    padding-bottom: 0px !important;
+}

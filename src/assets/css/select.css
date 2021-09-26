@@ -1,0 +1,807 @@
+.MuiFormLabel-root {
+  font-size: 13px !important;
+}
+.MuiFormLabel-root.Mui-focused {
+color: #4992F9 !important;
+}
+.MuiAutocomplete-noOptions{
+display: none
+}
+.MuiInput-underline:before {
+  /* border-color: #D2D2D2!important; */
+  color: #AAAAAA;
+}
+.MuiInput-underline:before {
+  border-color: #D2D2D2;
+  border-width: 1px !important;
+}
+.MuiInput-underline:hover:not(.Mui-disabled):before {
+  border-color: #D2D2D2!important;
+    border-width: 1px !important;
+}
+
+.MuiInput-underline:after {
+  /* border-bottom: 2px solid #4992F9 !important; */
+}
+.MuiFormLabel-root.Mui-focused{
+  /* color:#aaaaaa !important; */
+}
+.MuiFormControl-marginNormal {
+  margin: -5px 0 17px 0 !important;
+  position: relative;
+  /* padding-top: 27px; */
+  vertical-align: unset;
+  }
+  .MuiInputBase-input{
+    /* font: -webkit-control !important; */
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    color: #4d4d4d !important;
+  }
+
+.MuiAutocomplete-option{
+  font-size: 13px !important;
+}
+
+.MuiMenuItem-root{
+  font-size: 13px !important;
+}
+
+.EditIcon{
+font-size: 16px !important;
+color: #ff9800;
+margin-left: 10px;
+cursor: pointer;
+}
+
+.LogIcon{
+font-size: 16px !important;
+color: #4caf50;
+cursor: pointer;
+}
+
+.DeleteIcon{
+font-size: 16px !important;
+color: red;
+margin-left: 10px;
+cursor: pointer;
+}
+.DoneIcon{
+  font-size: 18px !important;
+  color: #4caf50;
+  cursor: pointer;
+}
+.RefreshIcon{
+  font-size: 16px !important;
+  color: white;
+  margin-left: 10px;
+  cursor: pointer;
+  }
+.iconButton{
+padding: 0px !important;
+transition: none !important;
+border-radius: 0% !important; 
+}
+.fltPadding { 
+padding: 5px 20px 0px 0px !important;
+}
+.addIconBtn{
+color:white !important;
+padding: 0px !important;
+transition: none !important;
+border-radius: 0% !important; 
+}
+.ant-input{
+width: 80% !important;
+}
+.active{
+color: #FFF !important;
+box-shadow: 0 12px 20px -10px rgba(0, 172, 193,.28), 0 4px 20px 0 rgba(0, 0, 0,.12), 0 7px 8px -5px rgba(0, 172, 193,.2) !important;
+background-color: #4992F9 !important;
+}
+.subActive{
+color: #FFF !important;
+box-shadow: 0 12px 20px -10px rgba(0, 172, 193,.28), 0 4px 20px 0 rgba(0, 0, 0,.12), 0 7px 8px -5px rgba(0, 172, 193,.2) !important;
+background-color: #4992F9 !important;
+} 
+.subActive2{
+  color: #FFF !important;
+  box-shadow: 0 12px 20px -10px rgba(0, 172, 193,.28), 0 4px 20px 0 rgba(0, 0, 0,.12), 0 7px 8px -5px rgba(0, 172, 193,.2) !important;
+  background-color: #4992F9 !important;
+  } 
+
+.subActive3{
+  color: #FFF !important;
+  box-shadow: 0 12px 20px -10px rgba(0, 172, 193,.28), 0 4px 20px 0 rgba(0, 0, 0,.12), 0 7px 8px -5px rgba(0, 172, 193,.2) !important;
+  background-color: #4992F9 !important;
+  } 
+.selectedWheel .MuiChip-root > .MuiSvgIcon-root{
+width: 14px !important;
+height: 14px !important;
+}
+
+.render li > .MuiSvgIcon-root{
+width: 16px !important;
+height: 14px !important;
+}
+/* 
+.outclick > .MuiFormControl-root {
+margin: -5px 0 17px 0 !important;
+}
+
+.outclick > .MuiFormControl-root > .MuiInputBase-root{
+padding-bottom: 1px !important;
+}
+
+.outclick > .MuiFormControl-root > .MuiInputBase-root > input {
+padding: 3px 0px 6px !important;
+} */
+.spanTab svg{
+font-size: 15px !important;
+position: relative;
+right: 5px;
+bottom: 8px;
+}
+.ant-checkbox-inner {
+width:  18px !important;
+height: 18px !important;
+border:2px solid #43a047 !important;
+}
+.ant-checkbox-checked .ant-checkbox-inner{
+background-color: #43a047 !important;
+}
+.ant-checkbox-wrapper{
+padding: 7px !important;
+}
+
+.liTabs{
+font-size: 13px;
+padding: 5px 8px;
+opacity: 0.5;  
+border-radius: 6px;  
+cursor: pointer;
+margin: 3px;
+list-style-type: none;
+background-color: #fff;        
+border-right: 1px solid gainsboro;
+box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.tabIcons{
+float: left;
+top: 7px;
+position: relative;
+}
+.tabActive{
+font-size: 13px;
+background-color: #fff;
+opacity: 1;
+color: #4992F9;
+font-weight: 400; 
+border-radius: 6px;
+margin: 3px 0px;
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;
+margin-bottom: 0px;
+box-shadow: none !important;
+user-select: none;
+}
+
+.hideDiv{
+display: none;
+}
+
+.outclick > .MuiFormControl-root > .MuiInputBase-root > input {
+padding: 3px 0px 6px !important;
+}
+.btngrp{
+color: #4992F9 ;
+}
+.radioColor{
+color: #43a047 !important;
+} 
+.closeBtn{
+float: right;
+color: red;
+margin-left: 5px;
+font-weight: 400;
+}
+.MuiRadio-root {
+   padding: 0px 9px !important;
+}
+.Checkboxs-radioRoot-432 {
+padding: 16px !important;
+}
+.homeImg{
+padding: 19px;
+} 
+
+.HlpsideMenuIcon{ 
+  margin-top: 10px;
+  color: #fff;
+}
+.imageBackColour
+{
+color: #FFF !important;
+margin-left: 23%;
+}
+.active {
+color: green;
+}
+#staffAnalysisSlideClose{
+cursor: pointer;
+height: 91%;
+width: 0;
+margin-top: 25px;
+position: fixed;
+z-index: 10;
+top: 70px;
+right: 2%;
+background: rgba(130, 130, 130, 0.5);
+overflow-x: hidden;
+transition: 0.7s;
+}
+#staffSlideChild{
+position: absolute;
+background-color: whitesmoke;
+right: 0px;
+}
+
+#MaterialSlideClose{
+cursor: pointer;
+height: 91%;
+width: 0;
+margin-top: 25px;
+position: fixed;
+z-index: 10;
+top: 70px;
+right: 2%;
+background: rgba(130, 130, 130, 0.5);
+overflow-x: hidden;
+transition: 0.7s;
+}
+#MaterialSlideChild{
+position: absolute;
+background-color: whitesmoke;
+right: 0px;
+}
+#MattabHead{
+background-color: #214F77 !important ;
+color: #FFF; 
+width: 100%;
+z-index: 10;
+}
+
+#staffTabHead{
+background-color: #214F77 !important ;
+color: #FFF; 
+width: 51%;
+z-index: 10;
+}
+
+#staffCloseBtn{
+position: absolute;
+top: 9%;
+border-radius: 3px !important;
+left: 31%; 
+background: #4992F9 !important;
+color: #FFF;
+border-bottom-left-radius: 25px !important;
+border-top-left-radius: 25px !important;
+} 
+#BOQCloseBtn{
+  position: absolute;
+  top: 9%;
+  border-radius: 3px !important;
+  left: 11%; 
+  background: #4992F9 !important;
+  color: #FFF;
+  border-bottom-left-radius: 25px !important;
+  border-top-left-radius: 25px !important;
+}
+#CheckCloseBtn{
+  position: absolute;
+  top: 9%;
+  border-radius: 3px !important;
+  left: 11%; 
+  background: #4992F9 !important;
+  color: #FFF;
+  border-bottom-left-radius: 25px !important;
+  border-top-left-radius: 25px !important;
+}
+.tabBody{
+  padding:12px;
+  margin-top: 30px;
+  padding-bottom: 10%;
+}
+
+
+/* Material Availablity Stype */
+.MaterialtabClose
+{
+left: 12.5vw;
+top: 48px;
+background: #4992F9 !important;
+color: #FFF;
+border-bottom-left-radius: 25px;
+border-top-left-radius: 25px;
+position: absolute;   
+}
+
+.MaterialAvgImg{
+position: absolute !important;
+right: 15px !important;
+top: -10px !important;
+border-radius: 4px !important;
+background-color: #4CAF50 !important;
+box-shadow: 0 4px 20px 0 rgba(0, 0, 0,.14), 0 7px 10px -5px rgba(73, 155, 239, 0.84);
+}
+.MaterialAvgSize{
+color: #fff;
+}
+.MaterialAvgSize:hover{
+color: #fff !important;
+}
+
+
+.slideHeading{
+color: #FFF;
+}
+.fixedFooter{
+margin-top: 0px;
+width: 100%;  
+background: #214F77; 
+height: 32px;
+z-index: 5;
+}
+
+.helpdeskMain{
+width: 96%;
+} 
+.HelpdeskBtn{
+background: #43a047 !important;
+padding: 18px !important;
+padding-bottom: 2px !important;
+padding-top: 4px !important;
+} 
+
+/* Execution */
+.stfExeRC{
+  position: absolute;
+  top: 15%;
+  width: 99% !important;
+}
+#staffExecutionSlideClose{
+  cursor: pointer;
+  height: 91%;
+  width: 0;
+  margin-top: 25px;
+  position: fixed;
+  z-index: 10;
+  top: 70px;
+  right: 2%;
+  background: rgba(130, 130, 130, 0.5);
+  overflow-x: hidden;
+  transition: 0.7s;
+}
+#ExstaffImgSlide{
+cursor: pointer;
+height: 91%;
+width: 0;
+margin-top: 25px;
+position: fixed;
+z-index: 10;
+top: 26px;
+right: 3%;
+background: transparent;
+overflow-x: hidden;
+transition: 0.7s;
+}
+#staffExecutionSlideChild{
+position: absolute;
+background-color: whitesmoke;
+right: 0px; 
+}
+
+
+.EximgTabClose{
+left: 0vw;
+top: 48px;
+background: #4992F9 !important;
+color: #FFF;
+border-bottom-left-radius: 25px;
+border-top-left-radius: 25px;
+position: absolute;
+}
+
+
+.ExstaffImgChild{
+background: whitesmoke;
+padding: 12px;
+right: 0%;
+top: 48px;
+position: absolute;
+height: 92%;
+width: 93%;
+}
+/*----------Vendor Invoice------*/
+#vendorHead{
+    background-color: #214F77 !important ;
+    color: #FFF; 
+    width: 100%;
+    z-index: 10;
+}
+#vendorSlideClose{
+  cursor: pointer;
+  height: 91%;
+  width: 0;
+  margin-top: 25px;
+  position: fixed;
+  z-index: 10;
+  top: 70px;
+  right: 2%;
+  background: rgba(130, 130, 130, 0.5);
+  overflow-x: hidden;
+  transition: 0.7s;
+} 
+#vendorSlideChild{
+position: absolute;
+background-color: whitesmoke;
+right: 0px; 
+}
+/*----------Checkpoints Invoice------*/
+#CheckPointsHead{
+  background-color: #214F77 !important ;
+  color: #FFF; 
+  width: 100%;
+  z-index: 10;
+}
+#CheckPointsSlideClose{
+cursor: pointer;
+height: 91%;
+width: 0;
+margin-top: 25px;
+position: fixed;
+z-index: 10;
+top: 70px;
+right: 2%;
+background: rgba(130, 130, 130, 0.5);
+overflow-x: hidden;
+transition: 0.7s;
+} 
+#CheckPointsSlideChild{
+position: absolute;
+background-color: whitesmoke;
+right: 0px; 
+}
+/*----------BOQ Invoice------*/
+#BOQHead{
+  background-color: #214F77 !important ;
+  color: #FFF; 
+  width: 100%;
+  z-index: 10;
+}
+#BOQClose{
+cursor: pointer;
+height: 91%;
+width: 0;
+margin-top: 25px;
+position: fixed;
+z-index: 10;
+top: 70px;
+right: 2%;
+background: rgba(130, 130, 130, 0.5);
+overflow-x: hidden;
+transition: 0.7s;
+} 
+#BOQChild{
+position: absolute;
+background-color: whitesmoke;
+right: 0px; 
+}
+/*--------Floating Button--------*/
+#floatButton{
+  position: fixed;
+  right: 10px;
+  top: 50%;
+  transition: 0.7s;
+  z-index: 9999;
+  cursor: pointer; 
+} 
+#hlpdskTableSlide{
+width: 0px;
+cursor: pointer;
+height: 91%; 
+margin-top: 25px;
+position: fixed; 
+z-index: 10;
+top: 68px;
+right: 7px;
+background: whitesmoke;
+overflow-x: hidden;
+transition: 0.7s;
+}
+.Tooltip:hover{
+cursor: pointer;
+}
+
+
+.expandSpan{
+color: #9c27b0 !important;
+}
+
+.ImageIcon{
+position: absolute; 
+top: -3px;
+right: 20px;
+}
+.MuiDialog-paperFullWidth {
+width: calc(100% - 64px) !important;
+height: 78% !important;
+}
+.mainSave{
+position: absolute !important;
+top:-4% !important;
+right: 20% !important;  
+}
+.mainSaveDrf{
+position: absolute !important;
+top:-4% !important;
+right: 10% !important;  
+}
+.LegndStyle{
+  width:fit-content;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  padding: 5px !important;
+  margin-top: -17px !important;
+  border-radius: 3px !important;
+}
+.logout{
+  margin: 0 !important;
+  color: #4992F9;
+}
+.sidmenu::before{
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  opacity: 0.2;
+  /* background:  url("/static/media/sidebar-2.d30c9e30.jpg") no-repeat center center; */
+  background-size: cover;
+}
+.sidmenu{
+  position: relative;
+  background-color: #000;
+}
+.MuiAutocomplete-input{
+  width: auto !important;
+}
+.posAlign{
+  position: relative;
+    border: 0;
+    top: 6px;
+    
+}
+.ptag{
+  margin: 5px 0 0px;
+  font-weight: 400;
+  font-size: 13px;
+  text-align: left;
+}
+/* Supervisor */
+
+#supervisorSlideClose{
+  cursor: pointer;
+  height: 91%;
+  width: 0;
+  margin-top: 25px;
+  position: fixed;
+  z-index: 10;
+  top: 70px;
+  right: 2%;
+  background: rgba(130, 130, 130, 0.5);
+  overflow-x: hidden;
+  transition: 0.7s;
+  }
+  
+  #supervisorSlideChild{
+  position: absolute;
+  background-color: whitesmoke;
+  right: 0px;
+  }
+  
+  #supervisorTabHead{
+  background-color: #214F77 !important ;
+  color: #FFF; 
+  width: 100%;
+  z-index: 10;
+  }
+  /* Staff execution */
+  #StfExecHead{
+    background-color: #214F77 !important ;
+    color: #FFF; 
+    width: 100%;
+    z-index: 10;
+  }
+  /* Supervisor */
+
+#supervisorSlideClose{
+  cursor: pointer;
+  height: 91%;
+  width: 0;
+  margin-top: 25px;
+  position: fixed;
+  z-index: 10;
+  top: 70px;
+  right: 2%;
+  background: rgba(130, 130, 130, 0.5);
+  overflow-x: hidden;
+  transition: 0.7s;
+  }
+  
+  #supervisorSlideChild{
+  position: absolute;
+  background-color: whitesmoke;
+  right: 0px;
+  }
+  
+  #supervisorTabHead{
+  background-color: #214F77 !important ;
+  color: #FFF; 
+  width: 100%;
+  z-index: 10;
+  }
+
+
+
+  /* BDM Approval */
+
+  #bdmApprovalSlideClose{
+    cursor: pointer;
+    height: 91%;
+    width: 0;
+    margin-top: 25px;
+    position: fixed;
+    z-index: 10;
+    top: 70px;
+    right: 2%;
+    background: rgba(130, 130, 130, 0.5);
+    overflow-x: hidden;
+    transition: 0.7s;
+    }
+    
+    #bdmApprovalSlideChild{
+    position: absolute;
+    background-color: whitesmoke;
+    right: 0px;
+    }
+    
+    #bdmApprovalTabHead{
+    background-color: #214F77 !important ;
+    color: #FFF; 
+    width: 100%;
+    z-index: 10;
+    }
+ /* BDM Approval */
+
+ #bdmApprovalSlideClose{
+  cursor: pointer;
+  height: 91%;
+  width: 0;
+  margin-top: 25px;
+  position: fixed;
+  z-index: 10;
+  top: 70px;
+  right: 2%;
+  background: rgba(130, 130, 130, 0.5);
+  overflow-x: hidden;
+  transition: 0.7s;
+  }
+  
+  #bdmApprovalSlideChild{
+  position: absolute;
+  background-color: whitesmoke;
+  right: 0px;
+  }
+  
+  #bdmApprovalTabHead{
+  background-color: #214F77 !important ;
+  color: #FFF; 
+  width: 100%;
+  z-index: 10;
+  }
+
+
+
+  /* Helpdesk others Material */
+
+#otherMaterialSlideClose{
+  cursor: pointer;
+  height: 91%;
+  width: 0;
+  margin-top: 25px;
+  position: fixed;
+  z-index: 10;
+  top: 70px;
+  right: 2%;
+  background: rgba(130, 130, 130, 0.5);
+  overflow-x: hidden;
+  transition: 0.7s;
+  }
+  
+  #otherMaterialSlideChild{
+  position: absolute;
+  background-color: whitesmoke;
+  right: 0px;
+  }
+  
+  #otherMaterialTabHead{
+  background-color: #214F77 !important ;
+  color: #FFF; 
+  width: 100%;
+  z-index: 10;
+  }
+
+
+  /* Other Material  Stype */
+.OtherMaterialtabClose
+{
+left: 12.5vw;
+top: 48px;
+background: #4992F9 !important;
+color: #FFF;
+border-bottom-left-radius: 25px;
+border-top-left-radius: 25px;
+position: absolute;   
+}
+
+
+
+
+  /* Helpdesk others Supplimentry */
+
+  #otherSupplimentrySlideClose{
+    cursor: pointer;
+    height: 91%;
+    width: 0;
+    margin-top: 25px;
+    position: fixed;
+    z-index: 10;
+    top: 70px;
+    right: 2%;
+    background: rgba(130, 130, 130, 0.5);
+    overflow-x: hidden;
+    transition: 0.7s;
+    }
+    
+    #otherSupplimentrySlideChild{
+    position: absolute;
+    background-color: whitesmoke;
+    right: 0px;
+    }
+    
+    #otherOutherSupllientryTabHead{
+    background-color: #214F77 !important ;
+    color: #FFF; 
+    width: 100%;
+    z-index: 10;
+    }
+
+
+
+       
+.OtherSupplimentrytabClose
+{
+left: 12.5vw;
+top: 48px;
+background: #4992F9 !important;
+color: #FFF;
+border-bottom-left-radius: 25px;
+border-top-left-radius: 25px;
+position: absolute;   
+}

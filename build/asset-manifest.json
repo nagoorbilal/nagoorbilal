@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a5ad53d5.chunk.css",
+    "main.js": "/static/js/main.180f3323.chunk.js",
+    "main.js.map": "/static/js/main.180f3323.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d7c918dd.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d7c918dd.js.map",
+    "static/css/2.786ae0dd.chunk.css": "/static/css/2.786ae0dd.chunk.css",
+    "static/js/2.2bb4964e.chunk.js": "/static/js/2.2bb4964e.chunk.js",
+    "static/js/2.2bb4964e.chunk.js.map": "/static/js/2.2bb4964e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.786ae0dd.chunk.css.map": "/static/css/2.786ae0dd.chunk.css.map",
+    "static/css/main.a5ad53d5.chunk.css.map": "/static/css/main.a5ad53d5.chunk.css.map",
+    "static/js/2.2bb4964e.chunk.js.LICENSE.txt": "/static/js/2.2bb4964e.chunk.js.LICENSE.txt",
+    "static/js/main.180f3323.chunk.js.LICENSE.txt": "/static/js/main.180f3323.chunk.js.LICENSE.txt",
+    "static/media/Curve-Loading.657ed726.gif": "/static/media/Curve-Loading.657ed726.gif",
+    "static/media/arm.2fb78726.jpeg": "/static/media/arm.2fb78726.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d7c918dd.js",
+    "static/css/2.786ae0dd.chunk.css",
+    "static/js/2.2bb4964e.chunk.js",
+    "static/css/main.a5ad53d5.chunk.css",
+    "static/js/main.180f3323.chunk.js"
+  ]
+}

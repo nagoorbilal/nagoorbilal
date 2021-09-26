@@ -1,0 +1,115 @@
+ 
+ .proText{
+    position: absolute;
+    z-index: 15;
+    font-size: 9px;
+    bottom: 0px;
+    margin-left: 2px;
+    margin-bottom: 0px !important;
+ }
+ .summaryRecords {
+    position: absolute;
+    bottom: 75px;
+    color: #777;
+}
+.totalsalesRecords {
+    position: absolute;
+    /* bottom: 5px; */
+    color: #777;
+}
+.GridViewbtn{
+    position: relative !important;
+    display: flex;
+    bottom: 5px;
+}
+.DocExportBtn{
+    position: absolute;
+    right: 12px;
+    top: 20px;
+} 
+.TblViewBtn{
+    font-size: 10px !important;
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    color: #ccc !important;
+    cursor: pointer;
+} 
+.TblViewAct{
+    background-color: #fff !important;
+    color: #4992F9 !important;
+} 
+.BillTable .ant-table{
+    height: 54vh !important;
+}
+.DocBillTable .ant-table{
+    height: 27vh !important;
+}
+.DocAccountTable .ant-table{
+    height: 33vh !important;
+}
+.DocWeeklyTable .ant-table{
+    height: 55vh !important;
+}
+.DocSummaryTable .ant-table{
+    height: 46vh !important;
+}
+.DocStoreTable .ant-table{
+    height: 29vh !important;
+}
+.hieracyUserAddTable .ant-table{
+    height: 24vh !important;
+}
+.ApprovalTable .ant-table{
+    height: 45vh !important;
+}
+.DocStoreTableV .ant-table{
+    height: 38vh !important;
+}
+.DocViewTable{
+    margin-top: -20px ;
+}
+/* Dov View Styles */
+
+.DocviewCard{
+    background: #f0f5f5 !important;
+} 
+.highLight{
+    color: #4992F9 !important;
+} 
+.DocViewHead{
+    font-size: 12px;
+}
+.DocViewHead span{
+    float: right;
+}
+.DocViewBody{
+    font-size: 12px;
+    font-weight: bold;
+}
+.pTag{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.DocGridName{
+    font-size: 11px;
+    font-weight: bold;
+    margin: 0px;
+    height: 40px;
+    padding-top: 15px;
+}
+.DocGridCnt{
+    color: #4992F9 !important;
+    cursor: pointer !important;
+    font-size: 35px !important;
+    margin: 0px;
+    line-height: 60px;
+}
+.GridViewCard{
+    height: 80% !important;
+    text-align: center;
+}
+.DocCircleDiv{
+    text-align: -webkit-center;
+} 

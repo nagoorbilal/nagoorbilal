@@ -1,0 +1,161 @@
+
+thead tr th {
+    border: 1px solid #eee !important;
+    font-weight: bold !important;
+    font-size: 9px !important;
+}
+.trcss{ 
+  border:  2px dotted #000;
+  /*border-bottom: 2px dotted #000;*/
+   }
+
+#invoice-POS{ width: 105mm; }
+.info > p{ text-align: center; }
+.flex{
+  display: flex;
+font-size: 0.10rem;
+/*font-weight: bold;*/
+}
+.flex sm {
+
+font-size: 0.72rem;
+}
+.flex > .flex-item {
+  width: 50%;
+  }
+.flex > .flex-item:nth-child(2) {
+  text-align: end;
+}
+/*td,
+th,
+tr,
+table {
+    border-top: 0px solid black;
+    border-collapse: collapse;
+    font-size: 9px;
+}*/
+
+.marginPad{
+    padding: 2px 12px !important;
+    font-size: 12px !important;
+
+}
+
+.ttablewid{
+     border-top: 0px solid black;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+.bordertop{
+  border-top: 2px dotted #000;
+  border-bottom: 2px dotted #000;
+}
+.borderbottom{
+  border: 2px dotted #000;
+}
+.trth{
+
+    border: 1px solid #eee;
+    font-size: 12px;
+}
+
+td.description,
+th.description {
+    width: 40px;
+    max-width: 40px;
+}
+
+td.quantity,
+th.quantity {
+    width: 40px;
+    max-width: 40px;
+    word-break: break-all;
+}
+
+td.price,
+th.price {
+    width: 40px;
+    max-width: 40px;
+    word-break: break-all;
+}
+
+.centered {
+    text-align: center;
+    align-content: center;
+}
+
+.ticket {
+    width: 60mm;
+    max-width: 60mm;
+}
+.ViewHeadpTag span{
+    float: right;
+    padding-right: 3px;
+}
+img {
+    max-width: inherit;
+    width: inherit;
+}
+.totAmt {
+    /* text-align: right; */
+    /* float: right;
+    margin-right: 7%; */
+    margin-top: 2%;
+}
+
+.totAmtSales {
+    text-align: right;
+    float: right;
+    margin-right: 14%;
+    margin-top: 2%;
+}
+.removePadd{
+    padding: 0px !important
+}
+
+@media print {
+    .hidden-print,
+    .hidden-print * {
+        display: none !important;
+    }
+}
+.tdremoveborder{
+    border: 0px solid #eee !important;
+}
+.font9{
+    color: #000;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold !important;
+
+}
+.font9bold{
+    color: #000;
+    font-size: 12px;
+    font-family: sans-serif !important;
+    font-weight: bold !important;
+}
+.font9bold600{
+    font-size: 12px;
+    font-weight: 600 !important;
+}
+tr, th, td {
+     padding: 0.55rem 0rem !important; 
+}
+
+.theadtrth {
+    border: 2px dotted #000 !important;
+     background: #fff !important; 
+     color: #000 !important; 
+     font-weight: bold !important;
+     font-size: 12px !important; 
+     font-family: sans-serif !important;
+    
+}
+
+.tth {
+    border: 2px dotted #000 !important;
+     background: #fff !important; 
+     color: #000 !important; 
+     font-size: 12px !important; 
+}

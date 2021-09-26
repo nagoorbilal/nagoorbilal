@@ -1,0 +1,23 @@
+th, td {
+    text-align: center;
+    font-weight:normal;
+    padding:5px;
+    width:120px;
+    vertical-align:top;
+    color: #777;
+}
+th {
+    background:#e9f5f8;
+}
+tr + tr th, tbody th {
+    background:#e9f5f8;
+}
+tr + tr, tbody {
+    text-align:left
+}
+table, th, td {
+    text-align: center;
+    border-bottom:1px solid #fff;
+    border-collapse:collapse;
+    table-layout:fixed;
+}

@@ -1,0 +1,88 @@
+.ProCntCrd{
+  background: linear-gradient(45deg,#4099ff,#73b4ff) !important;
+  color: #fff !important;
+}
+.DocCntCard{
+  background: linear-gradient(45deg,#FF5370,#ff869a) !important;
+  color: #fff !important;
+}
+.HomeCardIcon{
+  margin-top: 6px;
+}
+.leftbox {   
+    height: 100%;
+    text-align: center;
+    background: #214F77 !important;  
+  }
+.homePageText{
+  /* color: #343a40; */
+  font-size: 14px;
+  margin-top: 5px;
+  min-height: auto;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-weight: bold;
+  margin-bottom: 0px;
+  text-decoration: none;
+} 
+.homePageNum{
+  /* color: #4992F9 !important; */
+  cursor: pointer !important;
+  font-size: 25px !important;
+  margin: 0px;
+}  
+.HomeCardCnt{
+  height: 90px !important;
+}
+.HomeTrendCard{
+  margin: 0px !important;
+}
+.HomeCardIcon{
+  /* position: absolute;
+  right: 0px; */
+  /* top: 0px;   */
+}
+.HomeCardIconClr{
+  background: #4992F9 !important;
+}
+.DocTypeExpand img{
+  position: absolute;
+  right: 10px;
+  /* z-index: 100; */
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+}
+.DocExpClsIcn{
+  position: absolute;
+  right: 0;
+  color: #fff;
+  cursor: pointer;
+  z-index: 100;
+} 
+.HomePieCard{
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+}
+.menuSearchdes{
+  background: #fff;
+    /* display: flex; */
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    /* height: 39px; */
+    width: 270px;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+}
+
+.menuSearchdes:hover {
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+
+}
+.menuSearchdes:active {
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+
+}

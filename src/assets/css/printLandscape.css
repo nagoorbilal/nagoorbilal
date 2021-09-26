@@ -1,0 +1,57 @@
+.page-header, .page-header-space {
+    height: 100px;
+  }
+  
+  .page-footer, .page-footer-space {
+    height: 40px;
+  
+  } 
+  .erabGr {
+    font-size: 1rem !important;
+  }
+  
+  .page-footer {
+    position: fixed;
+    margin-bottom: 50px;
+    width: 100%;  
+  }
+  
+  .page-header {
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    background: grey;
+  }
+  .page-heading{ 
+    background:#bdbdbd !important;
+    text-align:center; 
+    width:100% !important; 
+  }
+  
+  .page {
+    page-break-after: always;
+  } 
+  /*@media print{
+    @page {
+      size: landscape !important;
+      margin: 0mm;
+    }
+  }  */ 
+   
+  table #yearCustomer{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%; 
+  }
+  .print_td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding-left: 1rem !important;
+  }
+  .printheaderbg{
+    background: #4da7fc !important;
+    color: white !important;
+  }
+  
+  
+  

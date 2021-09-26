@@ -1,0 +1,33 @@
+13-08-2021
+----------
+sales report -- thermal print
+1.தற்போதைய தொகை to விற்பனை தொகை -- done
+2.மொத்த தொகை to பாக்கி தொகை --done
+3. வரவு தொகை should be add in sale report  -- done
+4.remove weekly report -- done
+5.sales form need opening balance -- done
+
+
+new form --item report
+
+1.item code
+item name
+customer code, name
+from date todate,
+submit
+
+grid colum
+did to sale report -- remove opening balance
+
+1.redaarc.com/api/mcfish/v1/summaryreport
+{
+	"customer_id":"1",
+	"from_date":"2021-01-01",
+	"to_date":"2021-08-31"
+}
+2.redaarc.com/api/mcfish/v1/salesreport
+{
+	"customer_id":"1",
+	"from_date":"2021-01-01",
+	"to_date":"2021-08-31"
+}
