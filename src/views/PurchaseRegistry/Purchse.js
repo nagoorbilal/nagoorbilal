@@ -454,6 +454,7 @@ const deleteAlert = (key) => {
               "pur_customer_id": Customer.Id,
               "bill_date": BillData,
               "less_amount": LessAmt ? LessAmt : "0",
+              "commission": Commission ? Commission : '0',
               "total_amount": CurrAmt,
               "opening_balance": NetAmt,
               "old_opening_balance":defaultOpeningBal, 

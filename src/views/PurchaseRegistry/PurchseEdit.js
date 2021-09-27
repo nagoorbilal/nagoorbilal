@@ -1114,6 +1114,7 @@ const deleteAlert = (key) => {
                 "customer_id": Customer.Id,
                 "total_amount": NetAmt,
                 "less_amount": LessAmt ? LessAmt : "0",
+                "commission": Commission ? Commission : "0",
                 "opening_balance": NetAmt,
                 "old_opening_balance":defaultOpeningBal, 
                 "customer_bill_find":selesDet,

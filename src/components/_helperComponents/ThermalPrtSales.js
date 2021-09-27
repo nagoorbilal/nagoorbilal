@@ -91,7 +91,7 @@ class PrintScreen extends React.Component {
 
       <center id="top">
           <div className="info" style={{textAlign: 'center',paddingBottom: '1em'}}> 
-            <span className= 'font9bold' style={{fontSize: '14px'}}>Sales Registry</span>
+            <span className= 'font9bold' style={{fontSize: '14px'}}>{this.props.title}</span>
           </div>
         </center>
 
@@ -146,7 +146,8 @@ class PrintScreen extends React.Component {
                          
                           this.TotKg ? 
                           <tr className='tdremoveborder'>
-                          <th colspan="2" className="marginPad tdremoveborder font9bold" style={{textAlign: 'right'}}>{this.TotKg} Kg</th>
+                            <th colspan="1" className='tdremoveborder'></th>
+                          <th colspan="2" className="marginPad tdremoveborder font9bold" style={{textAlign: 'start'}}>{this.TotKg} Kg</th>
                           </tr>
                           :
                           null
@@ -154,7 +155,8 @@ class PrintScreen extends React.Component {
                         {
                           this.Boxtot ? 
                           <tr className='tdremoveborder'>
-                          <th colspan="2" className='marginPad tdremoveborder font9bold' style={{textAlign: 'right'}}>{this.Boxtot} Box</th>
+                            <th colspan="1" className='tdremoveborder'></th>
+                          <th colspan="2" className='marginPad tdremoveborder font9bold' style={{textAlign: 'start'}}>{this.Boxtot} Box</th>
                           </tr>
                           :
                           null
@@ -163,7 +165,8 @@ class PrintScreen extends React.Component {
                         {
                           this.Packettot ? 
                           <tr className='tdremoveborder'>
-                          <th colspan="2" className='marginPad tdremoveborder font9bold' style={{textAlign: 'right'}}>{this.Packettot} Packet</th>
+                            <th colspan="1" className='tdremoveborder'></th>
+                          <th colspan="2" className='marginPad tdremoveborder font9bold' style={{textAlign: 'start'}}>{this.Packettot} Packet</th>
                           </tr>
                           :
                           null
@@ -278,6 +281,7 @@ const Export_Print = forwardRef((props, ref) => {
 
                               <PrintScreen 
                                 ref={componentRef} 
+                                title={props.title}
                                 index={props.Items}
                                 data={props.data}
                                 billNo={props.billNo}

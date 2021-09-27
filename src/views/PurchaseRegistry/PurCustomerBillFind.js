@@ -88,9 +88,9 @@ function CustomerBillFind(props) {
     const [CustomerData, setCustomerData] = useState([])
 
      // Table Header
-   let columnIndex = ["Bill No", "Bill Date", "Total Amount" ,"Less Amount"]; 
+   let columnIndex = ["Bill No", "Bill Date", "Total Amount" ,"Expense","Commission"]; 
    // Table Row
-   const Items = ["bill_no","bill_date","total_amount","less_amount"]; 
+   const Items = ["bill_no","bill_date","total_amount","less_amount","commission"]; 
    // Excel Export
    const exportData = [
     {
@@ -234,7 +234,7 @@ function CustomerBillFind(props) {
     {
         title: () => {return (
           <div>
-              {"Less Amount"}
+              {"Expense"}
               {(CustomerBillFindRpt.length > 0) &&
                     <Tooltip title={"Sort"} placement="top"> 
                         <ImportExportIcon className="tableSort"
@@ -251,7 +251,29 @@ function CustomerBillFind(props) {
         className: "left",
         // width:"20%",
         // editable: true,
-       ...getColumnSearchProps('Less Amount',"less_amount","disabled"),
+       ...getColumnSearchProps('Expense',"less_amount","disabled"),
+      },
+      {
+        title: () => {return (
+          <div>
+              {"Commission"}
+              {(CustomerBillFindRpt.length > 0) &&
+                    <Tooltip title={"Sort"} placement="top"> 
+                        <ImportExportIcon className="tableSort"
+                          onClick={() => {                                               
+                            let data = CustomerBillFindRpt.sort(CompareValues('commission',((SortType === "asc") ? "desc" : "asc")));                                        
+                            setTimeout(function(){ setCustomerBillFindRpt(data)}, 1000);                         
+                          }}
+                        />
+                    </Tooltip>
+              }
+          </div>
+        )},
+        dataIndex: "commission",
+        className: "left",
+        // width:"20%",
+        // editable: true,
+       ...getColumnSearchProps('Commission',"commission","disabled"),
       },
       {
         title: "Action",

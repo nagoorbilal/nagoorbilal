@@ -85,63 +85,63 @@ padding-top: 15px;
 .spclskgQtyval{
     position: absolute;
     bottom: 15px;
-    right: 50.5%;
+    right: 54.5%;
     font-weight: bold !important;
 }
 .spclskgQty{
     position: absolute;
     bottom: 15px;
-    right: 46%;
+    right: 51%;
     font-weight: bold !important;
    }
    .sptotallessAmt{
     position: absolute;
     bottom: 15px;
-    right: 15.2%;
+    right: 22.2%;
     font-weight: bold !important;
    }
 
    .sptotalcommAmt{
     position: absolute;
     bottom: 15px;
-    right: 15.5%;
+    right: 14.5%;
     font-weight: bold !important;
    }
   
    .sptotalCurrAmt{
     position: absolute;
     bottom: 15px;
-    right: 4.5%;
+    right: 4%;
     font-weight: bold !important;
    }
    .spclsboxQtyval{
     position: absolute;
     bottom: 0px;
-    right: 53.5%;
+    right: 54.5%;
     font-weight: bold !important;
    }
    .spclsboxQty{
     position: absolute;
     bottom: 0px;
-    right: 47.5%;
+    right: 50.5%;
     font-weight: bold !important;
    }
    .spclspocQtyval{
     position: absolute;
     bottom: 0px;
-    right: 53.5%;
+    right: 54.5%;
     font-weight: bold !important;
    }
    .spclspocQty{
     position: absolute;
     bottom: 0px;
-    right: 46%;
+    right: 49%;
     font-weight: bold !important;
    }
    .sptotalAmtof{
     position: absolute;
     bottom: 15px;
-    right: 24%;
+    right: 30%;
     font-weight: bold !important;
 }
    /* --- */

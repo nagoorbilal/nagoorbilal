@@ -95,6 +95,7 @@ function SalesReport(props) {
     const [TotAmt, setTotAmt] = useState("");
     const [OpenAmt,setOpenAmt] = useState("");
     const [TotlessAmt,setTotlessAmt]=useState("")
+    const [Totcommission,setTotcommission]=useState("")
     const [Openingbalance,setOpeningbalance] = useState('')
     const [TotcollectAmt, setTotcollectAmt] = useState('')
     const [Amount, setAmount] = useState('')
@@ -242,6 +243,7 @@ const custNameChange = (val) =>{
       setOpenAmt("");
       setTotAmt("");
       setTotlessAmt("");
+      setTotcommission("");
       setTotcollectAmt("");
       setTableBody("");
     }
@@ -390,6 +392,7 @@ const custNameChange = (val) =>{
   let kgqty =  [];
   let pocketqty = [];
   let arramount = [];
+  let arrcommission = [];
 
   const tableBody =  stateValues.map((state, index) => {
     
@@ -398,7 +401,7 @@ const custNameChange = (val) =>{
     // arropen.push(parseFloat(state.opening_balance));
     arrless.push(parseFloat(state.less_amount));
     // arrcollect.push(parseFloat(state.collection_amount));
-    
+    arrcommission.push(parseFloat(state.commission))
     const itemValues = Object.values(state.items);
     const itemRows = itemValues.map((item, i) => {
 
@@ -433,6 +436,10 @@ const custNameChange = (val) =>{
         i === 0 ? (
           <td rowSpan={itemValues.length + 1}>{state.less_amount}</td>
         ) : null;
+        const commissionAmount =
+        i === 0 ? (
+          <td rowSpan={itemValues.length + 1}>{state.commission}</td>
+        ) : null;
         const currentAmount =
         i === 0 ? (
           <td rowSpan={itemValues.length + 1}>{state.total_amount}</td>
@@ -460,6 +467,7 @@ const custNameChange = (val) =>{
           <td>{item.rate}</td>
           <td>{item.amount}</td>
           {lessAmount}
+          {commissionAmount}
           {currentAmount}
           {/* {collectionDate}
           {collectionAmount} */}
@@ -492,6 +500,7 @@ const custNameChange = (val) =>{
   // setOpenAmt(uniqueOPn.reduce((a, b) => a + b, 0));
   setTotAmt(arrtot.reduce((a, b) => a + b, 0))
   setTotlessAmt(arrless.reduce((a, b) => a + b, 0))
+  setTotcommission(arrcommission.reduce((a, b) => a + b, 0))
   // setTotcollectAmt(arrcollect.reduce((a, b) => a + b, 0))
   setAmount(arramount.reduce((a, b) => a + b, 0));
   setTableBody(tableBody)
@@ -618,7 +627,7 @@ const custNameChange = (val) =>{
             <GridContainer style={{marginTop:'10px',padding: '0px 15px'}}>
             <div style={{position: "absolute",top: "55px",right: "7%"}}>
               <ThermalPrinter 
-               title={'Sales Report'}
+               title={'Purchase Report'}
                data={TableBody}
                Items={Items}
                columnIndex={columnIndex}
@@ -636,7 +645,7 @@ const custNameChange = (val) =>{
               </div>
             <div className="add-export-btn" style={{top: "55px"}}>  
                     <PrintSalesScreen 
-                      title={'Sales Report'}
+                      title={'Purchase Report'}
                       data={TableBody}
                       Items={Items}
                       columnIndex={columnIndex}
@@ -668,6 +677,7 @@ const custNameChange = (val) =>{
             <th>Rate per KG/BOX</th>
             <th>Total Amount</th>
             <th>Expense</th>
+            <th>Commission</th>
             <th>Current Amount</th>
             {/* <th>Collection Date</th>
             <th>Collection Amount</th> */}
@@ -695,6 +705,7 @@ const custNameChange = (val) =>{
     {TableBody.length > 0 &&
     <>
       <Typography className="sptotallessAmt" gutterBottom>{TotlessAmt && parseFloat(TotlessAmt).toFixed(2) == 0 ? 0.00 : parseFloat(TotlessAmt).toFixed(2)}</Typography> 
+      <Typography className="sptotalcommAmt" gutterBottom>{Totcommission && parseFloat(Totcommission).toFixed(2) == 0 ? 0.00 : parseFloat(Totcommission).toFixed(2)}</Typography> 
       <Typography className="sptotalAmtof" gutterBottom>{Amount && parseFloat(Amount).toFixed(2)}</Typography>
       <Typography className="sptotalCurrAmt" gutterBottom>{TotAmt && parseFloat(TotAmt).toFixed(2)}</Typography>
   </>

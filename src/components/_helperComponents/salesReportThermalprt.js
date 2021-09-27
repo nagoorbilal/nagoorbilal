@@ -54,7 +54,7 @@ class PrintScreen extends React.Component {
 
     <center id="top">
           <div className="info" style={{textAlign: 'center'}}> 
-            <span className="font9bold" style={{fontSize: '14px'}}>Sales Report</span>
+            <span className="font9bold" style={{fontSize: '14px'}}>{this.props.title}</span>
           </div>
     </center>
 
@@ -253,7 +253,7 @@ const Export_Print = forwardRef((props, ref) => {
                                 data={PrintDs} 
                                 index={props.Items}
                                 columnTitle={props.columnIndex}
-                                Title={props.title}
+                                title={props.title}
                                 OpenAmt={props.OpenAmt}
                                 TotAmt={props.TotAmt}
                                 CustomerCode={props.CustomerCode}
