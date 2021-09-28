@@ -652,6 +652,11 @@ const custNameChange = (val) =>{
                       triggerApi={()=>{getAllDataPrint(Filter.val, Filter.column)}}
                       Refresh={()=>{getCustomerData();setExportData([]);setExportData([]);setTableBody("");setTableBodyNew("");SalesReportApi()}}
                       Printdisabled={false}
+                      CustomerCode={Customer.Code}
+                      CustomerName={Customer.Name}
+                      OpenAmt={isNaN(Openingbalance) ? "" : parseFloat(Openingbalance).toFixed(2)}
+                      TotAmt={isNaN(TotAmt) ? "" : parseFloat(TotAmt).toFixed(2)}
+                       TotCollectAmt={isNaN(TotcollectAmt) ? "" : parseFloat(TotcollectAmt).toFixed(2)}
                       ref={ref}
                     />
                   </div>

@@ -703,17 +703,17 @@ const custNameChange = (val) =>{
 
     {KGQty != 0 &&
       <>
-      <Typography className="spclskgQtyval" gutterBottom>{parseFloat(KGQty).toFixed(2)}</Typography> 
-      <Typography className="spclskgQty" gutterBottom>Kg</Typography> 
+      <Typography className="salclskgQtyval" gutterBottom>{parseFloat(KGQty).toFixed(2)}</Typography> 
+      <Typography className="salclskgQty" gutterBottom>Kg</Typography> 
       </>
     }
  
     {TableBody.length > 0 &&
     <>
-      <Typography className="sptotallessAmt" gutterBottom>{TotlessAmt && parseFloat(TotlessAmt).toFixed(2) == 0 ? 0.00 : parseFloat(TotlessAmt).toFixed(2)}</Typography> 
+      <Typography className="saltotallessAmt" gutterBottom>{TotlessAmt && parseFloat(TotlessAmt).toFixed(2) == 0 ? 0.00 : parseFloat(TotlessAmt).toFixed(2)}</Typography> 
       {/* <Typography className="sptotalcommAmt" gutterBottom>{TotCommissionAmt && parseFloat(TotCommissionAmt).toFixed(2) == 0 ? 0.00 : parseFloat(TotCommissionAmt).toFixed(2)}</Typography>  */}
-      <Typography className="sptotalAmtof" gutterBottom>{Amount && parseFloat(Amount).toFixed(2)}</Typography>
-      <Typography className="sptotalCurrAmt" gutterBottom>{TotAmt && parseFloat(TotAmt).toFixed(2)}</Typography>
+      <Typography className="saltotalAmtof" gutterBottom>{Amount && parseFloat(Amount).toFixed(2)}</Typography>
+      <Typography className="saltotalCurrAmt" gutterBottom>{TotAmt && parseFloat(TotAmt).toFixed(2)}</Typography>
   </>
     }
 
@@ -724,8 +724,8 @@ const custNameChange = (val) =>{
     <div className='divrelative'>
     {Boxqty != 0 &&
       <>
-      <Typography className="spclsboxQtyval" gutterBottom>{parseFloat(Boxqty).toFixed(2)}</Typography> 
-      <Typography className="spclsboxQty" gutterBottom>Box</Typography> 
+      <Typography className="salclsboxQtyval" gutterBottom>{parseFloat(Boxqty).toFixed(2)}</Typography> 
+      <Typography className="salclsboxQty" gutterBottom>Box</Typography> 
       </>
     }
 
@@ -733,8 +733,8 @@ const custNameChange = (val) =>{
     <div className='divrelative paddtop15px'>
     {Pocketsqty != 0 &&
       <>
-      <Typography className="spclspocQtyval" gutterBottom>{parseFloat(Pocketsqty).toFixed(2)}</Typography> 
-      <Typography className="spclspocQty" gutterBottom>Packet</Typography> 
+      <Typography className="salclspocQtyval" gutterBottom>{parseFloat(Pocketsqty).toFixed(2)}</Typography> 
+      <Typography className="salclspocQty" gutterBottom>Packet</Typography> 
       </>
     }
 

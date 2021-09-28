@@ -463,3 +463,58 @@ svg {
     cursor: pointer;
     width: 18px !important;
 }
+.saltotalCurrAmt{
+    position: absolute;
+    bottom: 15px;
+    right: 4.5%;
+    font-weight: bold !important;
+   }
+   .saltotalAmtof{
+    position: absolute;
+    bottom: 15px;
+    right: 22.5%;
+    font-weight: bold !important;
+}
+.saltotallessAmt{
+    position: absolute;
+    bottom: 15px;
+    right: 14.2%;
+    font-weight: bold !important;
+   }
+   .salclskgQty{
+    position: absolute;
+    bottom: 15px;
+    right: 46%;
+    font-weight: bold !important;
+   }
+   .salclskgQtyval{
+    position: absolute;
+    bottom: 15px;
+    right: 51.5%;
+    font-weight: bold !important;
+}
+.salclsboxQtyval{
+    position: absolute;
+    bottom: 0px;
+    right: 51.5%;
+    font-weight: bold !important;
+   }
+   .salclsboxQty{
+    position: absolute;
+    bottom: 0px;
+    right: 45.5%;
+    font-weight: bold !important;
+   }
+
+   .salclspocQty{
+    position: absolute;
+    bottom: 0px;
+    right: 44%;
+    font-weight: bold !important;
+   }
+   .salclspocQtyval {
+    position: absolute;
+    bottom: 0px;
+    right: 51.5%;
+    font-weight: bold !important;
+}

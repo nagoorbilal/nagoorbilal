@@ -68,3 +68,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+purchase report A4 print
+Remove 
+Bill no
+Name
+
+Add 
+1. SNo
+2. ItemName
+3. Qty
+4. Amt
+5. TotAMt
+6. Exp
+7. Comm
+8. NetAmt
+9. Date

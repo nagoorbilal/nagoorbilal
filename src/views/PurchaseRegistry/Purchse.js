@@ -311,6 +311,7 @@ const deleteAlert = (key) => {
     })
 
     setLessAmt('');
+    setCommission('')
     setCollectionAmt('')
     setCurrAmt(parseFloat(curr.reduce((a, b) => a + b, 0)).toFixed(2))
     setNetAmt(parseFloat(defaultOpeningBal) + parseFloat(curr.reduce((a, b) => a + b, 0)))
@@ -352,6 +353,7 @@ const deleteAlert = (key) => {
         curr.push(parseFloat(val.Amount));
     })
     setLessAmt('');
+    setCommission('')
     setCollectionAmt('')
     setCurrAmt(parseFloat(curr.reduce((a, b) => a + b, 0)).toFixed(2))
     setNetAmt(parseFloat(OpenAmt) + parseFloat(curr.reduce((a, b) => a + b, 0)))
@@ -688,6 +690,7 @@ const deleteAlert = (key) => {
         })
         console.log(curr)
         setLessAmt('');
+        setCommission('')
         setCollectionAmt('');
         setCurrAmt(parseFloat(curr.reduce((a, b) => a + b, 0)).toFixed(2))
         setNetAmt(parseFloat(defaultOpeningBal) + parseFloat(curr.reduce((a, b) => a + b, 0)))
@@ -704,6 +707,7 @@ const deleteAlert = (key) => {
         })
         console.log(curr)
         setLessAmt('');
+        setCommission('')
         setCollectionAmt('')
         setCurrAmt(parseFloat(curr.reduce((a, b) => a + b, 0)).toFixed(2))
         setNetAmt(parseFloat(OpenAmt) + parseFloat(curr.reduce((a, b) => a + b, 0)))
@@ -793,6 +797,7 @@ const deleteAlert = (key) => {
                 curr.push(parseFloat(val.Amount));
             })
             setLessAmt('');
+            setCommission('')
             setCollectionAmt('')
             setCurrAmt(parseFloat(curr.reduce((a, b) => a + b, 0)).toFixed(2))
             setNetAmt(parseFloat(OpenAmt) + parseFloat(curr.reduce((a, b) => a + b, 0)))

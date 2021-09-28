@@ -62,6 +62,22 @@ class PrintScreen extends React.Component {
 
 
                     <div>
+
+     
+    <div style={{padding: '0% 6%'}}>
+            <div style={{width: "75%",float:"left",textAlign:'left',padding: '1em 0em' }}>
+              
+              <span className="font9bold">Customer Code&nbsp;&nbsp;&nbsp;: {this.props.CustomerCode}</span><br></br>
+            </div>
+
+            <div style={{width: "25%",float:"left",textAlign:'left',padding: '1em 0em' }}>
+              
+              <span className="font9bold">Customer Name : </span>
+              <span className="font9bold">{this.props.CustomerName}</span><br></br>
+            </div>
+      </div>
+
+
       <table style={{marginBottom: '48px'}}>
         <thead className="fontbold">
           <tr>
@@ -70,15 +86,15 @@ class PrintScreen extends React.Component {
             // {tbodies} */}
           </tr>
           <tr>
-            <th className="fontbold">பில் எண்</th>
-            <th className="fontbold">தேதி</th>
-            <th className="fontbold">பெயர்</th>
-            <th className="fontbold">பொருளின் பெயர்</th>
-            <th className="fontbold">அளவு</th>
-            <th className="fontbold">தொகை</th>
-            <th className="fontbold">மொ.தொகை</th>
-            <th className="fontbold">குறைந்த தொகை</th>
-            <th className="fontbold">விற்பனை தொகை</th>
+            <th className="thead tr th ">Bill No</th>
+            <th className="thead tr th">Item Name</th>
+            <th className="thead tr th">Quantity</th>
+            <th className="thead tr th">Amount</th>
+            <th className="thead tr th">Total Amt</th>
+            <th className="thead tr th">Expense</th>
+            <th className="thead tr th">Commission</th>
+            <th className="thead tr th">Net Amt</th>
+            <th className="thead tr th">Date</th>
           </tr>
         </thead>
         {
@@ -86,6 +102,39 @@ class PrintScreen extends React.Component {
         }
         
       </table>
+
+{/*       
+      <div className="totAmtSales" >
+       <GridContainer>
+       <GridItem xs={6} sm={6} md={6} lg={6} className="removePadd">
+       <span className= "font9bold ">விற்பனை தொகை</span><br></br>
+       </GridItem>
+       <GridItem xs={4} sm={4} md={4} lg={4} >
+       <span className= "font9bold"><span style={{float:'left'}}>:</span> {this.props.TotAmt}</span><br></br>
+       </GridItem>
+       </GridContainer>
+
+       <GridContainer>
+       <GridItem xs={6} sm={6} md={6} lg={6} className="removePadd">
+       <span className= "font9bold">பாக்கி தொகை</span><br></br>
+       </GridItem>
+       <GridItem xs={4} sm={4} md={4} lg={4} >
+       <span className= "font9bold"><span style={{float:'left'}}>:</span>  {this.props.OpenAmt}</span><br></br>
+       </GridItem>
+       </GridContainer>
+
+       <GridContainer>
+       <GridItem xs={6} sm={6} md={6} lg={6} className="removePadd">
+       <span className= "font9bold">வரவு தொகை</span><br></br>
+       </GridItem>
+       <GridItem xs={4} sm={4} md={4} lg={4} >
+       <span className= "font9bold"><span style={{float:'left'}}>:</span> {this.props.TotCollectAmt}</span><br></br>
+       </GridItem>
+       </GridContainer>
+       
+       </div>
+        */}
+
     </div>
 
                   
@@ -125,7 +174,7 @@ const Export_Print = forwardRef((props, ref) => {
         const itemRows = itemValues.map((item, i) => {
           const billno =
             i === 0 ? <td className="font12" rowSpan={itemValues.length + 1}>{state.bill_no}</td> : null;
-          const dates =
+          const bildate =
             i === 0 ? (
               <td className="font12" rowSpan={itemValues.length + 1}>{state.date}</td>
             ) : null;
@@ -141,6 +190,10 @@ const Export_Print = forwardRef((props, ref) => {
             i === 0 ? (
               <td className="font12" rowSpan={itemValues.length + 1}>{state.less_amount}</td>
             ) : null;
+            const commissionAmount =
+            i === 0 ? (
+              <td className="font12" rowSpan={itemValues.length + 1}>{state.commission}</td>
+            ) : null;
             const currentAmount =
             i === 0 ? (
               <td className="font12" rowSpan={itemValues.length + 1}>{state.total_amount}</td>
@@ -148,15 +201,14 @@ const Export_Print = forwardRef((props, ref) => {
           return (
             <tr key={i}>
               {billno}
-              {dates}
-              {customer}
-              
               <td className="font12">{item.item_name}</td>
               <td className="font12">{item.qty+" "+item.uom}</td>
               <td className="font12"> {item.rate}</td>
               <td className="font12">{item.amount}</td>
               {lessAmount}
+              {commissionAmount}
               {currentAmount}
+              {bildate}
             </tr>
           );
         });
@@ -189,6 +241,11 @@ const Export_Print = forwardRef((props, ref) => {
                                 index={props.Items}
                                 columnTitle={props.columnIndex}
                                 Title={props.title}
+                                CustomerCode={props.CustomerCode}
+                                 CustomerName={props.CustomerName}
+                                 OpenAmt={props.OpenAmt}
+                                 TotAmt={props.TotAmt}
+                                 TotCollectAmt={props.TotCollectAmt}
                               />     
                                             
                           </div>                          
